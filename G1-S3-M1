@@ -1,0 +1,4 @@
+SELECT * FROM clienti WHERE "Nome" = 'Mario'
+SELECT "Nome", "Cognome" FROM clienti WHERE "AnnoNascita" = 1982
+SELECT COUNT(*) FROM fatture WHERE "Iva"=20
+SELECT * FROM prodotti WHERE "DataAttivazione" = 2017 AND ("InProduzione" = true OR "InCommercio" = true)
